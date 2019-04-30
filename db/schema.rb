@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_04_30_215235) do
 
-  create_table "haunted_houses", force: :cascade do |t|
+  create_table "movies", force: :cascade do |t|
     t.string "titles"
     t.string "release_date"
     t.string "director"
